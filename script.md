@@ -7,7 +7,7 @@
 
 ## Part 2
 
--   take a look a example app `kubectl get deployments -n example-app`
+-   take a look at example app `kubectl get deployments -n example-app`
 -   change the deployment through the state repository
 -   introduction fluxctl (`fluxctl sync --k8s-fwd-ns flux-system`)
 -   verify that change was successful
@@ -17,7 +17,7 @@
 
 -   commit setup with dev and staging environment
 -   apply new setup through state-repository
--   showcase what happens when accidental kubectl apply is excecuted
+-   showcase what happens when an accidental kubectl apply is excecuted
 
 ## Part 4
 
